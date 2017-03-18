@@ -1,10 +1,3 @@
-------------------------------------------------------
--- ECEC 355 Computer Architecture
--- MIPS Single Cycle Datapath
--- Cem Sahin - 08/04/2009
--- modified 07/21/2015, 02/03/2017
-------------------------------------------------------
-
 library IEEE;
 use IEEE.std_logic_1164.all;
 use IEEE.std_logic_arith.all;
