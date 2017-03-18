@@ -4,7 +4,8 @@ use IEEE.std_logic_1164.all;
 Entity control is
   port(
     inst: in STD_LOGIC_VECTOR(5 downto 0);
-    RegDst, Jump, Branch, MemRead, MemtoReg, MemWrite, ALUSrc, RegWrite, ALUOP1, ALUOP2: out STD_LOGIC;
+    RegDst, Jump, Branch, MemRead, MemtoReg, MemWrite, ALUSrc, RegWrite: out STD_LOGIC;
+    ALUOP: out STD_LOGIC_VECTOR(1 downto 0)
   );
 Architecture behav of control is
   signal cntl_vector: STD_LOGIC_VECTOR(8 downto 0);
@@ -29,7 +30,6 @@ Branch <= cntl_vector(5);
 MemWrite <= cntl_vector(4);
 MemtoReg <=cntl_vector(3);
 jump <= cntl_vector(2);
-ALUOP1 <= cntl_vector(1);
-ALUOP2 <= cntl_vector(0);
+ALUOP <= cntl_vector(1 downto 0);
 
 end;
