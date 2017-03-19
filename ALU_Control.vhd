@@ -10,7 +10,7 @@ Entity ALU_Control is
 
 Architecture Behav of ALU_Control is
   begin
-    process
+    process(funct, ALUOP)
     begin
     case ALUOP is
       when "00" => ALUcontrol <= "010";

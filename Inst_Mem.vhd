@@ -4,15 +4,14 @@ use IEEE.std_logic_arith.all;
 use ieee.std_logic_unsigned.all;
 
 entity Inst_Mem is
-  component Inst_Mem is
     port (
       address: in STD_LOGIC_VECTOR (31 downto 0);
       read_data: out STD_LOGIC_VECTOR (31 downto 0)
       );
-  end Inst_Mem;
+end;
 
 
-architecture behavioral of memory is
+architecture behavioral of inst_mem is
 
 type mem_array is array(0 to 31) of STD_LOGIC_VECTOR (31 downto 0);
 

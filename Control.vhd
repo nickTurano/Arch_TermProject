@@ -7,24 +7,26 @@ Entity control is
     RegDst, Jump, Branch, MemRead, MemtoReg, MemWrite, ALUSrc, RegWrite: out STD_LOGIC;
     ALUOP: out STD_LOGIC_VECTOR(1 downto 0)
   );
+end;
 Architecture behav of control is
-  signal cntl_vector: STD_LOGIC_VECTOR(8 downto 0);
+  signal cntl_vector : STD_LOGIC_VECTOR(9 downto 0);
   begin
   process (inst) begin
     case inst is
-      when "000000" => cntl_vector <= "110000010";
-      when "100011" => cntl_vector <= "101001000";
-      when "101011" => cntl_vector <= "001010000";
-      when "000100" => cntl_vector <= "000100001";
-      when "001000" => cntl_vector <= "101000000";
-      when "000010" => cntl_vector <= "000000100";
-      when "000011" => cntl_vector <= "100000001";
-      when "001001" => cntl_vector <= "101000001";
-      when others   => cntl_vector <= "---------";
+      when "000000" => cntl_vector <= "0110000010"; -- R - Type
+      when "100011" => cntl_vector <= "1101001000"; -- lw
+      when "101011" => cntl_vector <= "0001010000"; -- sw
+      when "000100" => cntl_vector <= "0000100001"; -- beq
+      when "001000" => cntl_vector <= "0101000000"; -- addi
+      when "000010" => cntl_vector <= "0000000100"; -- j
+      when "000011" => cntl_vector <= "0100000001"; -- jal
+      when "001001" => cntl_vector <= "0101000001"; -- subi
+      when others   => cntl_vector <= "----------";
     end case;
   end process;
+MemRead <= cntl_vector(9);
 RegWrite <= cntl_vector(8);
-ReadDst <=cntl_vector(7);
+RegDst <=cntl_vector(7);
 ALUSrc <= cntl_vector(6);
 Branch <= cntl_vector(5);
 MemWrite <= cntl_vector(4);

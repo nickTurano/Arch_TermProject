@@ -6,7 +6,7 @@ entity registers is
   port(
     read_reg_1, read_reg_2, write_reg: in STD_LOGIC_VECTOR(4 downto 0);
     write_data: in STD_LOGIC_VECTOR(31 downto 0);
-    RegWrite: in bit;
+    RegWrite: in std_logic;
     read_data_1, read_data_2: out STD_LOGIC_VECTOR(31 downto 0)
   );
 end registers;

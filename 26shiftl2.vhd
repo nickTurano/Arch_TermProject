@@ -1,13 +1,13 @@
 library ieee;
 use ieee.std_logic_1164.all;
 
-entity 26shiftl2 is
+entity shiftleft2_26b is
   Port(
     A: in STD_LOGIC_VECTOR(25 downto 0);
-    Z: in STD_LOGIC_VECTOR(27 downto 0)
+    Z: out STD_LOGIC_VECTOR(27 downto 0)
   );
-
-architecture behav of 26shiftl2 is
+end ;
+architecture behav of shiftleft2_26b is
   begin
-    Y <= A & "00"
+    Z <= A & "00";
 end;

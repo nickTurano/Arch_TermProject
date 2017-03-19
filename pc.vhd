@@ -4,16 +4,21 @@ use IEEE.std_logic_arith.all;
 use ieee.std_logic_unsigned.all;
 
 entity pc is
-component pc is
   port(
     A: in STD_LOGIC_VECTOR(31 downto 0);
+    ck: in std_logic;  
     Z: out STD_LOGIC_VECTOR(31 downto 0)
   );
-
+end;
 architecture behav of pc is
   begin
-    process(A)
-    begin
-      Z <= A;
-    end process;
+  process(ck)
+    variable temp: std_logic_vector(31 downto 0) := X"00000000";
+  begin
+    Z <= temp;
+    if falling_edge(ck) then
+      temp := A;
+    else
+    end if;
+  end process;
   end behav;

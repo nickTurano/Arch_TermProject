@@ -1,13 +1,14 @@
 library ieee;
 use ieee.std_logic_1164.all;
 
-entity 32shiftl2 is
+entity shiftleft2_32b is
   Port(
-    A: in STD_LOGIC_VECTOR(32 downto 0);
-    Z: in STD_LOGIC_VECTOR(32 downto 0)
+    A: in STD_LOGIC_VECTOR(31 downto 0);
+    Z: out STD_LOGIC_VECTOR(31 downto 0)
   );
+end;
 
-architecture behav of 32shiftl2 is
+architecture behav of shiftleft2_32b is
   begin
-    Y <= A(29 downto 0) & "00"
+    Z <= A(29 downto 0) & "00";
 end;

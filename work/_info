@@ -8,3 +8,659 @@ z2
 !i10f 100
 cModel Technology
 dC:/Modeltech_pe_edu_10.4a/examples
+Eadd
+Z0 w1489858797
+Z1 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z5 dC:/Users/nickt/Documents/GitHub/Arch_TermProject
+Z6 8C:\Users\nickt\Documents\GitHub\Arch_TermProject\add.vhd
+Z7 FC:\Users\nickt\Documents\GitHub\Arch_TermProject\add.vhd
+l0
+L5
+VAngeI<5eoCWPk9MGI=1ni0
+!s100 nMC6Z9LVEU8A4HMK>dOU<2
+Z8 OP;C;10.4a;61
+32
+Z9 !s110 1489935459
+!i10b 1
+Z10 !s108 1489935459.000000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\nickt\Documents\GitHub\Arch_TermProject\add.vhd|
+Z12 !s107 C:\Users\nickt\Documents\GitHub\Arch_TermProject\add.vhd|
+!i113 1
+Z13 o-work work -2002 -explicit -O0
+Z14 tExplicit 1
+Abehav
+R1
+R2
+R3
+R4
+DEx4 work 3 add 0 22 AngeI<5eoCWPk9MGI=1ni0
+l13
+L12
+V8@FLeR_=AbFDICU4ElHM22
+!s100 W0?d4UC[R@K6bZ:kzE0;`1
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Ealu
+Z15 w1489881491
+R2
+R1
+R3
+R4
+R5
+Z16 8C:\Users\nickt\Documents\GitHub\Arch_TermProject\ALU.vhd
+Z17 FC:\Users\nickt\Documents\GitHub\Arch_TermProject\ALU.vhd
+l0
+L6
+V4^cUdKT[3@Pck[I?8KUY12
+!s100 XZI7N@fc>dSREWEYT69kN1
+R8
+32
+R9
+!i10b 1
+R10
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\nickt\Documents\GitHub\Arch_TermProject\ALU.vhd|
+Z19 !s107 C:\Users\nickt\Documents\GitHub\Arch_TermProject\ALU.vhd|
+!i113 1
+R13
+R14
+Abehav
+R2
+R1
+R3
+R4
+DEx4 work 3 alu 0 22 4^cUdKT[3@Pck[I?8KUY12
+l17
+L15
+Vcg5FnacNXjN[2=D4SEM9U1
+!s100 WTF5F9b:iD3TbNfU[lNO;0
+R8
+32
+R9
+!i10b 1
+R10
+R18
+R19
+!i113 1
+R13
+R14
+Ealu_control
+Z20 w1489881536
+R3
+R4
+R5
+Z21 8C:\Users\nickt\Documents\GitHub\Arch_TermProject\ALU_Control.vhd
+Z22 FC:\Users\nickt\Documents\GitHub\Arch_TermProject\ALU_Control.vhd
+l0
+L4
+VeOBzNIkzSW^IiSCzaK6j^0
+!s100 flP0[8bQLB6>kAgX9VacU0
+R8
+32
+Z23 !s110 1489935460
+!i10b 1
+Z24 !s108 1489935460.000000
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\nickt\Documents\GitHub\Arch_TermProject\ALU_Control.vhd|
+Z26 !s107 C:\Users\nickt\Documents\GitHub\Arch_TermProject\ALU_Control.vhd|
+!i113 1
+R13
+R14
+Abehav
+R3
+R4
+DEx4 work 11 alu_control 0 22 eOBzNIkzSW^IiSCzaK6j^0
+l12
+L11
+VE42Gic6=4[:i=keIS1fQ=0
+!s100 jmW@R_[gR9O4TW6a[gJYz3
+R8
+32
+R23
+!i10b 1
+R24
+R25
+R26
+!i113 1
+R13
+R14
+Ebit32_2x1mux
+Z27 w1489892461
+R3
+R4
+R5
+Z28 8C:\Users\nickt\Documents\GitHub\Arch_TermProject\32Bit_2x1mux.vhd
+Z29 FC:\Users\nickt\Documents\GitHub\Arch_TermProject\32Bit_2x1mux.vhd
+l0
+L4
+VXE[Qhk]8J[[?L]c8MdKd93
+!s100 kZJdPAPZJJQ9NRGgzJbem1
+R8
+32
+R9
+!i10b 1
+R10
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\nickt\Documents\GitHub\Arch_TermProject\32Bit_2x1mux.vhd|
+Z31 !s107 C:\Users\nickt\Documents\GitHub\Arch_TermProject\32Bit_2x1mux.vhd|
+!i113 1
+R13
+R14
+Abehav
+R3
+R4
+DEx4 work 12 bit32_2x1mux 0 22 XE[Qhk]8J[[?L]c8MdKd93
+l13
+L12
+V_;=0eo>0zbBP^6zPZD45a0
+!s100 Kf6_AFgS8b_Gc@H@aj>7_1
+R8
+32
+R9
+!i10b 1
+R10
+R30
+R31
+!i113 1
+R13
+R14
+Ebit5_2x1mux
+Z32 w1489892321
+R3
+R4
+R5
+Z33 8C:\Users\nickt\Documents\GitHub\Arch_TermProject\5Bit_2x1mux.vhd
+Z34 FC:\Users\nickt\Documents\GitHub\Arch_TermProject\5Bit_2x1mux.vhd
+l0
+L4
+VR@7GI]`>i`;::QY5Q2HHH1
+!s100 ]fDmfK1m2C@Q:IR]R0N4;2
+R8
+32
+R9
+!i10b 1
+R10
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\nickt\Documents\GitHub\Arch_TermProject\5Bit_2x1mux.vhd|
+Z36 !s107 C:\Users\nickt\Documents\GitHub\Arch_TermProject\5Bit_2x1mux.vhd|
+!i113 1
+R13
+R14
+Abehav
+R3
+R4
+DEx4 work 11 bit5_2x1mux 0 22 R@7GI]`>i`;::QY5Q2HHH1
+l13
+L12
+V[`;aWdV?z21G;g[XT^i7J2
+!s100 [Ac8HXjV9>gJ^zAE:>cdf2
+R8
+32
+R9
+!i10b 1
+R10
+R35
+R36
+!i113 1
+R13
+R14
+Econtrol
+Z37 w1489889899
+R3
+R4
+R5
+Z38 8C:\Users\nickt\Documents\GitHub\Arch_TermProject\Control.vhd
+Z39 FC:\Users\nickt\Documents\GitHub\Arch_TermProject\Control.vhd
+l0
+L4
+VAVNUB0zMR^P:>]Pb2<jIW1
+!s100 Xe?7<;HfD4Omc33Y8?EmC1
+R8
+32
+R23
+!i10b 1
+R24
+Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\nickt\Documents\GitHub\Arch_TermProject\Control.vhd|
+Z41 !s107 C:\Users\nickt\Documents\GitHub\Arch_TermProject\Control.vhd|
+!i113 1
+R13
+R14
+Abehav
+R3
+R4
+DEx4 work 7 control 0 22 AVNUB0zMR^P:>]Pb2<jIW1
+l13
+L11
+VL0Y>^@4:=N6AaSFF9YfmB1
+!s100 L2flo[X2<GgXmc<=z[;hH0
+R8
+32
+R23
+!i10b 1
+R24
+R40
+R41
+!i113 1
+R13
+R14
+Edata_mem
+Z42 w1489893838
+R2
+R1
+R3
+R4
+R5
+Z43 8C:\Users\nickt\Documents\GitHub\Arch_TermProject\memory.vhd
+Z44 FC:\Users\nickt\Documents\GitHub\Arch_TermProject\memory.vhd
+l0
+L12
+V4nZP8cHh@@moEoa]Xl]zF2
+!s100 OW83i[FTUR[]TUzE>XVeK0
+R8
+32
+R9
+!i10b 1
+R10
+Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\nickt\Documents\GitHub\Arch_TermProject\memory.vhd|
+Z46 !s107 C:\Users\nickt\Documents\GitHub\Arch_TermProject\memory.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R1
+R3
+R4
+DEx4 work 8 data_mem 0 22 4nZP8cHh@@moEoa]Xl]zF2
+l59
+L21
+VQon0Rn@i@e<I4MDeXbDeU0
+!s100 `MSMX^UP;Z5i9^I>4B2]d1
+R8
+32
+R9
+!i10b 1
+R10
+R45
+R46
+!i113 1
+R13
+R14
+Einst_mem
+Z47 w1489890869
+R2
+R1
+R3
+R4
+R5
+Z48 8C:\Users\nickt\Documents\GitHub\Arch_TermProject\Inst_Mem.vhd
+Z49 FC:\Users\nickt\Documents\GitHub\Arch_TermProject\Inst_Mem.vhd
+l0
+L6
+V`ZTDJe>^2k6<BSYAHaf^L2
+!s100 H7Vzb8UjR;OeLf0LTW7GN1
+R8
+32
+R23
+!i10b 1
+R24
+Z50 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\nickt\Documents\GitHub\Arch_TermProject\Inst_Mem.vhd|
+Z51 !s107 C:\Users\nickt\Documents\GitHub\Arch_TermProject\Inst_Mem.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R1
+R3
+R4
+DEx4 work 8 inst_mem 0 22 `ZTDJe>^2k6<BSYAHaf^L2
+l52
+L14
+VXa@NACSl0[`DO3adk`]Vc0
+!s100 iIEJG[fG[K<FgP=@ojj`S3
+R8
+32
+R23
+!i10b 1
+R24
+R50
+R51
+!i113 1
+R13
+R14
+Ememory
+Z52 w1489881893
+R2
+R1
+R3
+R4
+R5
+R43
+R44
+l0
+L12
+VAzKYWSP:JQNe4X<5;?dXT0
+!s100 JlzkbXT:oeB<YXPzfE;g51
+R8
+32
+Z53 !s110 1489893094
+!i10b 1
+Z54 !s108 1489893094.000000
+R45
+R46
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R1
+R3
+R4
+DEx4 work 6 memory 0 22 AzKYWSP:JQNe4X<5;?dXT0
+l59
+L21
+Vc=FY>AQfhnI_NKl]H0Yj90
+!s100 LNF;Cfa9zQ65FaBLX6YIl0
+R8
+32
+R53
+!i10b 1
+R54
+R45
+R46
+!i113 1
+R13
+R14
+Emips
+Z55 w1489935457
+R2
+R1
+R3
+R4
+R5
+Z56 8C:\Users\nickt\Documents\GitHub\Arch_TermProject\MIPS.vhd
+Z57 FC:\Users\nickt\Documents\GitHub\Arch_TermProject\MIPS.vhd
+l0
+L6
+VZCIDXB`2h1_H8jKT?G_1Z3
+!s100 lelDUNQ>B0RVbi>e1f_RH1
+R8
+32
+R23
+!i10b 1
+R24
+Z58 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\nickt\Documents\GitHub\Arch_TermProject\MIPS.vhd|
+Z59 !s107 C:\Users\nickt\Documents\GitHub\Arch_TermProject\MIPS.vhd|
+!i113 1
+R13
+R14
+Astructure
+R2
+R1
+R3
+R4
+DEx4 work 4 mips 0 22 ZCIDXB`2h1_H8jKT?G_1Z3
+l120
+L11
+V8Q?_]T24a7GEiZlLk@FT:1
+!s100 :[]lCadlhSR[J8X3^bUaW3
+R8
+32
+R23
+!i10b 1
+R24
+R58
+R59
+!i113 1
+R13
+R14
+Epc
+Z60 w1489896690
+R2
+R1
+R3
+R4
+R5
+Z61 8C:\Users\nickt\Documents\GitHub\Arch_TermProject\pc.vhd
+Z62 FC:\Users\nickt\Documents\GitHub\Arch_TermProject\pc.vhd
+l0
+L6
+VdKRI32bEYe4Ac:fPGaz4Y3
+!s100 1hMSBfTDP6=U@[>ZR`8X]3
+R8
+32
+R23
+!i10b 1
+R24
+Z63 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\nickt\Documents\GitHub\Arch_TermProject\pc.vhd|
+Z64 !s107 C:\Users\nickt\Documents\GitHub\Arch_TermProject\pc.vhd|
+!i113 1
+R13
+R14
+Abehav
+R2
+R1
+R3
+R4
+DEx4 work 2 pc 0 22 dKRI32bEYe4Ac:fPGaz4Y3
+l14
+L13
+V:d^R1odalYKcQk`5FcAH13
+!s100 K:oFGMfkK8J7U_86b[1gZ3
+R8
+32
+R23
+!i10b 1
+R24
+R63
+R64
+!i113 1
+R13
+R14
+Eregisters
+Z65 w1489892353
+R2
+R1
+R3
+R4
+R5
+Z66 8C:\Users\nickt\Documents\GitHub\Arch_TermProject\Registers.vhd
+Z67 FC:\Users\nickt\Documents\GitHub\Arch_TermProject\Registers.vhd
+l0
+L5
+VCB>Ck;bgDL1;F1U3;nzlS2
+!s100 D1^G67eDGZdi43ZJ^cC6S3
+R8
+32
+R23
+!i10b 1
+R24
+Z68 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\nickt\Documents\GitHub\Arch_TermProject\Registers.vhd|
+Z69 !s107 C:\Users\nickt\Documents\GitHub\Arch_TermProject\Registers.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R1
+R3
+R4
+DEx4 work 9 registers 0 22 CB>Ck;bgDL1;F1U3;nzlS2
+l53
+L15
+VZ9ibajXlB6SKe]EAMP:R13
+!s100 Oa2iF<H:T?Um]dPfm[8ED1
+R8
+32
+R23
+!i10b 1
+R24
+R68
+R69
+!i113 1
+R13
+R14
+Eshiftleft2_26b
+Z70 w1489880670
+R3
+R4
+R5
+Z71 8C:\Users\nickt\Documents\GitHub\Arch_TermProject\26shiftl2.vhd
+Z72 FC:\Users\nickt\Documents\GitHub\Arch_TermProject\26shiftl2.vhd
+l0
+L4
+VR?PkE:DbKe4>ES]hAj;Lf3
+!s100 ]O<OS@OmSkT^m4?>zZfOg1
+R8
+32
+R9
+!i10b 1
+R10
+Z73 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\nickt\Documents\GitHub\Arch_TermProject\26shiftl2.vhd|
+Z74 !s107 C:\Users\nickt\Documents\GitHub\Arch_TermProject\26shiftl2.vhd|
+!i113 1
+R13
+R14
+Abehav
+R3
+R4
+DEx4 work 14 shiftleft2_26b 0 22 R?PkE:DbKe4>ES]hAj;Lf3
+l11
+L10
+VXCA[kEMlC:e_fV:VzM6dn2
+!s100 1X00@mF[T1mEVIj3LnL110
+R8
+32
+R9
+!i10b 1
+R10
+R73
+R74
+!i113 1
+R13
+R14
+Eshiftleft2_32b
+Z75 w1489891499
+R3
+R4
+R5
+Z76 8C:\Users\nickt\Documents\GitHub\Arch_TermProject\32shiftl2.vhd
+Z77 FC:\Users\nickt\Documents\GitHub\Arch_TermProject\32shiftl2.vhd
+l0
+L4
+VeU^0l1>7:?80e4g8@D82N0
+!s100 hLjZe>z9D@lhom9=mMOJR1
+R8
+32
+R23
+!i10b 1
+R24
+Z78 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\nickt\Documents\GitHub\Arch_TermProject\32shiftl2.vhd|
+Z79 !s107 C:\Users\nickt\Documents\GitHub\Arch_TermProject\32shiftl2.vhd|
+!i113 1
+R13
+R14
+Abehav
+R3
+R4
+DEx4 work 14 shiftleft2_32b 0 22 eU^0l1>7:?80e4g8@D82N0
+l12
+L11
+V[ok7CJ0FzMAL4cmZRaKK?2
+!s100 5P<XRFIjQ@XoCgQ8ce<<12
+R8
+32
+R23
+!i10b 1
+R24
+R78
+R79
+!i113 1
+R13
+R14
+Esign_extender
+Z80 w1489893805
+R3
+R4
+R5
+Z81 8C:\Users\nickt\Documents\GitHub\Arch_TermProject\sign_extender.vhd
+Z82 FC:\Users\nickt\Documents\GitHub\Arch_TermProject\sign_extender.vhd
+l0
+L4
+Vm3;DNAgR5Y8NCC0L8`4<30
+!s100 =k>b9eH=<lzc8Nd2=4GOz1
+R8
+32
+R23
+!i10b 1
+R24
+Z83 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\nickt\Documents\GitHub\Arch_TermProject\sign_extender.vhd|
+Z84 !s107 C:\Users\nickt\Documents\GitHub\Arch_TermProject\sign_extender.vhd|
+!i113 1
+R13
+R14
+Abehav
+R3
+R4
+Z85 DEx4 work 13 sign_extender 0 22 m3;DNAgR5Y8NCC0L8`4<30
+l12
+L11
+Z86 V?_Z=GidFm^KaFclTk67PA3
+Z87 !s100 8FECa77aU5d?7IbYmUf_?2
+R8
+32
+R23
+!i10b 1
+R24
+R83
+R84
+!i113 1
+R13
+R14
+Esignextender
+Z88 w1489881760
+R3
+R4
+R5
+R81
+R82
+l0
+L4
+Vlh7DPO`H>YjYY=OHkKZaM3
+!s100 Z3A[e=mKJ>Jl7m3Z5OmF23
+R8
+32
+Z89 !s110 1489893777
+!i10b 1
+Z90 !s108 1489893777.000000
+R83
+R84
+!i113 1
+R13
+R14
+Abehav
+R3
+R4
+DEx4 work 12 signextender 0 22 lh7DPO`H>YjYY=OHkKZaM3
+l12
+L11
+VM89A1URMK8dX0HYn1Bak13
+!s100 dD`V34jU09maN`Rz]FfUX3
+R8
+32
+R89
+!i10b 1
+R90
+R83
+R84
+!i113 1
+R13
+R14

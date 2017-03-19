@@ -1,1 +1,117 @@
+C:/Users/nickt/Documents/GitHub/Arch_TermProject/sign_extender.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\nickt\Documents\GitHub\Arch_TermProject\sign_extender.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity sign_extender
+-- Compiling architecture behav of sign_extender
 
+} {} {}} C:/Users/nickt/Documents/GitHub/Arch_TermProject/32Bit_2x1mux.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\nickt\Documents\GitHub\Arch_TermProject\32Bit_2x1mux.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Bit32_2x1mux
+-- Compiling architecture behav of Bit32_2x1mux
+
+} {} {}} C:/Users/nickt/Documents/GitHub/Arch_TermProject/Registers.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\nickt\Documents\GitHub\Arch_TermProject\Registers.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity registers
+-- Compiling architecture behavioral of registers
+
+} {} {}} C:/Users/nickt/Documents/GitHub/Arch_TermProject/5Bit_2x1mux.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\nickt\Documents\GitHub\Arch_TermProject\5Bit_2x1mux.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Bit5_2x1mux
+-- Compiling architecture behav of Bit5_2x1mux
+
+} {} {}} C:/Users/nickt/Documents/GitHub/Arch_TermProject/add.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\nickt\Documents\GitHub\Arch_TermProject\add.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity add
+-- Compiling architecture behav of add
+
+} {} {}} C:/Users/nickt/Documents/GitHub/Arch_TermProject/ALU_Control.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\nickt\Documents\GitHub\Arch_TermProject\ALU_Control.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ALU_Control
+-- Compiling architecture Behav of ALU_Control
+
+} {} {}} C:/Users/nickt/Documents/GitHub/Arch_TermProject/pc.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\nickt\Documents\GitHub\Arch_TermProject\pc.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity pc
+-- Compiling architecture behav of pc
+
+} {} {}} C:/Users/nickt/Documents/GitHub/Arch_TermProject/memory.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\nickt\Documents\GitHub\Arch_TermProject\memory.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity data_mem
+-- Compiling architecture behavioral of data_mem
+
+} {} {}} C:/Users/nickt/Documents/GitHub/Arch_TermProject/32shiftl2.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\nickt\Documents\GitHub\Arch_TermProject\32shiftl2.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity shiftleft2_32b
+-- Compiling architecture behav of shiftleft2_32b
+
+} {} {}} C:/Users/nickt/Documents/GitHub/Arch_TermProject/Control.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\nickt\Documents\GitHub\Arch_TermProject\Control.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity control
+-- Compiling architecture behav of control
+
+} {} {}} C:/Users/nickt/Documents/GitHub/Arch_TermProject/ALU.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\nickt\Documents\GitHub\Arch_TermProject\ALU.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity ALU
+-- Compiling architecture behav of ALU
+
+} {} {}} C:/Users/nickt/Documents/GitHub/Arch_TermProject/Inst_Mem.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\nickt\Documents\GitHub\Arch_TermProject\Inst_Mem.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity Inst_Mem
+-- Compiling architecture behavioral of inst_mem
+
+} {} {}} C:/Users/nickt/Documents/GitHub/Arch_TermProject/26shiftl2.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\nickt\Documents\GitHub\Arch_TermProject\26shiftl2.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity shiftleft2_26b
+-- Compiling architecture behav of shiftleft2_26b
+
+} {} {}}
